@@ -11,11 +11,11 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	baskettypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
-	markettypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	baskettypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	markettypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
 )
 
 // Simulation operation weights constants

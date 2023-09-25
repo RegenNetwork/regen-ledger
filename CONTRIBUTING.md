@@ -2,7 +2,7 @@
 
 :earth_asia: Welcome! We're glad you're here. Planetary regeneration is a big project, and we can use your help building infrastructure and tools to support regenerative land stewardship. :earth_africa:
 
-We follow an agile methodology and use ZenHub and [GitHub Issues](https://github.com/regen-network/regen-ledger/issues) for ticket tracking. To understand our current priorities and roadmap, check out [GitHub Milestones](https://github.com/regen-network/regen-ledger/milestones). If you're a first time contributor, check out issues labeled "[good first issue](https://github.com/regen-network/regen-ledger/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+)".
+We follow an agile methodology and use ZenHub and [GitHub Issues](https://github.com/RegenNetwork/regen-ledger/issues) for ticket tracking. To understand our current priorities and roadmap, check out [GitHub Milestones](https://github.com/RegenNetwork/regen-ledger/milestones). If you're a first time contributor, check out issues labeled "[good first issue](https://github.com/RegenNetwork/regen-ledger/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+)".
 
 If you have questions about a specific issue or you would like to start working on an issue, please comment in the issue. If you have general questions, feel free to reach out in the **#regen-ledger** channel of our [Discord Server](https://discord.gg/regen-network).
 
@@ -44,7 +44,7 @@ The following guidelines cover the basics, including submitting issues and pull 
 
 ### Submitting Issues
 
-Please use the GitHub interface and [the provided templates](https://github.com/regen-network/regen-ledger/issues/new/choose) when submitting a new issue.
+Please use the GitHub interface and [the provided templates](https://github.com/RegenNetwork/regen-ledger/issues/new/choose) when submitting a new issue.
 
 #### For Bugs
 
@@ -78,7 +78,7 @@ Another way of framing this, "One pull request, one concern." A pull request to 
 
 #### Getting Started
 
-Unless you are a core team member or a contributor who has been granted limited write access, you will first need to fork the repository before you can submit a pull request. To fork the repository, [click this link](https://github.com/regen-network/regen-ledger/fork), select the owner, and then click "Create fork".
+Unless you are a core team member or a contributor who has been granted limited write access, you will first need to fork the repository before you can submit a pull request. To fork the repository, [click this link](https://github.com/RegenNetwork/regen-ledger/fork), select the owner, and then click "Create fork".
 
 Once you have forked the repository, you can clone the repository, create a feature branch, and start making changes locally. If you have any questions about how to use Git with GitHub, we recommend checking out [GitHub Git Guides](https://github.com/git-guides). 
 
@@ -111,7 +111,7 @@ In addition, reviewers should use one of the following keywords in the review co
 
 ### Using GitHub Labels
 
-We use [GitHub Labels](https://github.com/regen-network/regen-ledger/labels) for issues and pull requests. The following provides some general guidelines for using labels.
+We use [GitHub Labels](https://github.com/RegenNetwork/regen-ledger/labels) for issues and pull requests. The following provides some general guidelines for using labels.
 
 #### Using Labels With Issues
 

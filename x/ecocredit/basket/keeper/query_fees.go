@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	regentypes "github.com/regen-network/regen-ledger/types/v2"
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	regentypes "github.com/RegenNetwork/regen-ledger/types/v2"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
 )
 
 func (k Keeper) BasketFee(ctx context.Context, _ *types.QueryBasketFeeRequest) (*types.QueryBasketFeeResponse, error) {

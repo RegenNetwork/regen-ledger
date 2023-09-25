@@ -10,7 +10,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 
-	regen "github.com/regen-network/regen-ledger/v5/app"
+	regen "github.com/RegenNetwork/regen-ledger/v5/app"
 )
 
 func TestApp(t *testing.T) {

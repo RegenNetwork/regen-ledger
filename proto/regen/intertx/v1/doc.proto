@@ -10,4 +10,4 @@ syntax = "proto3";
 //
 package regen.intertx.v1;
 
-option go_package = "github.com/regen-network/regen-ledger/x/intertx/types/v1";
+option go_package = "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1";

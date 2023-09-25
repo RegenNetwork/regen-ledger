@@ -3,7 +3,7 @@ package v1
 import (
 	"testing"
 
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"gotest.tools/v3/assert"
 
 	"github.com/cosmos/cosmos-sdk/codec"

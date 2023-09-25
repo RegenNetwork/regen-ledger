@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	"github.com/regen-network/regen-ledger/types/v2/ormutil"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	"github.com/RegenNetwork/regen-ledger/types/v2/ormutil"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 // CreditTypes queries the list of allowed types that credit classes can have.

@@ -12,7 +12,7 @@ import (
 	host "github.com/cosmos/ibc-go/v5/modules/core/24-host"
 	ibcexported "github.com/cosmos/ibc-go/v5/modules/core/exported"
 
-	"github.com/regen-network/regen-ledger/x/intertx/keeper"
+	"github.com/RegenNetwork/regen-ledger/x/intertx/keeper"
 )
 
 var _ porttypes.IBCModule = IBCModule{}

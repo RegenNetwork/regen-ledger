@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 // UpdateClassIssuers updates a class's issuers by either adding more issuers, or removing issuers from the class issuer store.

@@ -6,10 +6,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	"github.com/regen-network/regen-ledger/types/v2/ormutil"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	"github.com/RegenNetwork/regen-ledger/types/v2/ormutil"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 // ClassesByAdmin queries for all classes with a specific admin address.

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/golang/mock/gomock"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
@@ -19,7 +19,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/regen-network/regen-ledger/x/intertx/keeper/mocks"
+	"github.com/RegenNetwork/regen-ledger/x/intertx/keeper/mocks"
 )
 
 type baseSuite struct {

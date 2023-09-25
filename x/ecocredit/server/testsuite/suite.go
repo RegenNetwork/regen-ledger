@@ -21,17 +21,17 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 
-	basketApi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	marketapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/types/v2"
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/types/v2/testutil/fixture"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	basetypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	baskettypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
-	markettypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/server/utils"
+	basketApi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	marketapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil/fixture"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	basetypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	baskettypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	markettypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/server/utils"
 )
 
 type IntegrationTestSuite struct {

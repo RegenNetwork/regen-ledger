@@ -18,10 +18,10 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	basketapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	v4 "github.com/regen-network/regen-ledger/x/ecocredit/v3/migrations/v4"
+	basketapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	v4 "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/migrations/v4"
 )
 
 func TestMainnetMigrations(t *testing.T) {

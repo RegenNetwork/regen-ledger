@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/golang/mock/gomock"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"gotest.tools/v3/assert"
 
 	dbm "github.com/tendermint/tm-db"
@@ -20,10 +20,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/mocks"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/mocks"
 )
 
 const (

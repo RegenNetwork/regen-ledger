@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 // Class queries for information on a credit class.

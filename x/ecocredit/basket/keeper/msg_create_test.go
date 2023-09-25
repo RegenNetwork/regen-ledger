@@ -9,19 +9,19 @@ import (
 
 	"github.com/gogo/protobuf/jsonpb"
 	gogotypes "github.com/gogo/protobuf/types"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regentypes "github.com/regen-network/regen-ledger/types/v2"
-	"github.com/regen-network/regen-ledger/types/v2/testutil"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regentypes "github.com/RegenNetwork/regen-ledger/types/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
 )
 
 type createSuite struct {

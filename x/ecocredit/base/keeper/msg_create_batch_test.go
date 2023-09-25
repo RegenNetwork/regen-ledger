@@ -9,17 +9,17 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/jsonpb"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regentypes "github.com/regen-network/regen-ledger/types/v2"
-	"github.com/regen-network/regen-ledger/types/v2/ormutil"
-	"github.com/regen-network/regen-ledger/types/v2/testutil"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regentypes "github.com/RegenNetwork/regen-ledger/types/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/ormutil"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 type createBatchSuite struct {

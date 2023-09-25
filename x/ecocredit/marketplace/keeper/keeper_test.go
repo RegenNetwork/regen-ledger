@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/golang/mock/gomock"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gotest.tools/v3/assert"
 
@@ -21,13 +21,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	basetypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/mocks"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/server/utils"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	basetypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/mocks"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/server/utils"
 )
 
 const (

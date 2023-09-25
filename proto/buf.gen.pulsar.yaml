@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/regen-network/regen-ledger/api
+    default: github.com/RegenNetwork/regen-ledger/api
     except:
       - buf.build/googleapis/googleapis
       - buf.build/cosmos/gogo-proto

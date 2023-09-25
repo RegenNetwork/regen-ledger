@@ -8,14 +8,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regenmath "github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base"
-	basetypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	basketsub "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regenmath "github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base"
+	basetypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	basketsub "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
 )
 
 // Put deposits ecocredits into a basket, returning fungible coins to the depositor.

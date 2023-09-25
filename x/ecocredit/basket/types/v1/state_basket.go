@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
 )
 
 // Validate performs basic validation of the Basket state type

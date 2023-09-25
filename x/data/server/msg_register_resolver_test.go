@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"github.com/gogo/protobuf/jsonpb"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/types/v2"
-	"github.com/regen-network/regen-ledger/types/v2/testutil"
-	"github.com/regen-network/regen-ledger/x/data/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2"
 )
 
 type registerResolverSuite struct {

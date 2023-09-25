@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 // Supply queries the supply (tradable, retired, cancelled) of a given credit batch.

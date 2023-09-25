@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 type setClassCreatorAllowlistSuite struct {

@@ -21,11 +21,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/regen-network/regen-ledger/x/data/v2"
-	"github.com/regen-network/regen-ledger/x/data/v2/client"
-	"github.com/regen-network/regen-ledger/x/data/v2/genesis"
-	"github.com/regen-network/regen-ledger/x/data/v2/server"
-	"github.com/regen-network/regen-ledger/x/data/v2/simulation"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2/client"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2/genesis"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2/server"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2/simulation"
 )
 
 var (

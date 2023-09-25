@@ -38,9 +38,9 @@ For documentation on all available commands, see [Commands](../commands/README.m
 
 As a client developer, you can query state using a gRPC library in the programming language of your choice by importing and generating code from the [Regen Ledger Protobuf API](https://buf.build/regen/regen-ledger).
 
-In some programming languages, you may be able to leverage a pre-existing library to take care of most of the heavy lifting, including the compiling of protobuf messages. If you develop in Go, you can use the [regen-ledger](https://github.com/regen-network/regen-ledger) modules. If you develop in Typescript, check out [regen-js](https://github.com/regen-network/regen-js).
+In some programming languages, you may be able to leverage a pre-existing library to take care of most of the heavy lifting, including the compiling of protobuf messages. If you develop in Go, you can use the [regen-ledger](https://github.com/RegenNetwork/regen-ledger) modules. If you develop in Typescript, check out [regen-js](https://github.com/RegenNetwork/regen-js).
 
-Unlike the command-line interface, the gRPC interface can only be used to broadcast transactions. To generate and sign transactions, a developer will need to use another library such as [keplr-wallet](https://github.com/chainapsis/keplr-wallet) (see [regen-js](https://github.com/regen-network/regen-js) for an example using Typescript and Keplr).
+Unlike the command-line interface, the gRPC interface can only be used to broadcast transactions. To generate and sign transactions, a developer will need to use another library such as [keplr-wallet](https://github.com/chainapsis/keplr-wallet) (see [regen-js](https://github.com/RegenNetwork/regen-js) for an example using Typescript and Keplr).
 
 In addition to using a gRPC library programmatically, you can also use [grpcurl](https://github.com/fullstorydev/grpcurl) - a command-line tool that lets you interact with gRPC servers from the command-line.
 
@@ -68,7 +68,7 @@ For more information about the gRPC interface, check out the [Cosmos SDK Documen
 
 Regen Ledger leverages [gRPC Gateway](https://github.com/grpc-ecosystem/grpc-gateway), which makes all gRPC services and methods available via REST endpoints. As a client developer, you can query state using an HTTP library in the programming language of your choice and without generating code from [Regen Ledger Protobuf API](https://buf.build/regen/regen-ledger).
 
-Like the gRPC interface, the REST interface can only be used to broadcast transactions. To generate and sign transactions, a developer will need to use another library such as [keplr-wallet](https://github.com/chainapsis/keplr-wallet) (see [regen-js](https://github.com/regen-network/regen-js) for an example using Typescript and Keplr).
+Like the gRPC interface, the REST interface can only be used to broadcast transactions. To generate and sign transactions, a developer will need to use another library such as [keplr-wallet](https://github.com/chainapsis/keplr-wallet) (see [regen-js](https://github.com/RegenNetwork/regen-js) for an example using Typescript and Keplr).
 
 In addition to using an HTTP library programmatically, you can also use the `curl` command.
 

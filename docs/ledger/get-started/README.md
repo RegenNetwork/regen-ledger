@@ -25,7 +25,7 @@ In order to build the `regen` binary from source, you'll need the following:
 Clone the `regen-ledger` repository:
 
 ```bash
-git clone https://github.com/regen-network/regen-ledger
+git clone https://github.com/RegenNetwork/regen-ledger
 ```
 
 Change to the `regen-ledger` directory:
@@ -102,7 +102,7 @@ The following instructions are for installing the `regen` binary using a pre-bui
 Download the zip file:
 
 ```bash
-curl -LO https://github.com/regen-network/regen-ledger/releases/download/v5.1.0/regen-ledger_5.1.0_darwin_amd64.zip
+curl -LO https://github.com/RegenNetwork/regen-ledger/releases/download/v5.1.0/regen-ledger_5.1.0_darwin_amd64.zip
 ```
 
 Verify the checksum:
@@ -146,7 +146,7 @@ v5.1.0
 Download the zip file:
 
 ```bash
-curl -LO https://github.com/regen-network/regen-ledger/releases/download/v5.1.2/regen-ledger_5.1.2_linux_amd64.zip
+curl -LO https://github.com/RegenNetwork/regen-ledger/releases/download/v5.1.2/regen-ledger_5.1.2_linux_amd64.zip
 ```
 
 Verify the checksum:
@@ -187,4 +187,4 @@ v5.1.2
 
 ### Additional Packages
 
-Additional packages and checksums are available under "Assets" on the [Release Page](https://github.com/regen-network/regen-ledger/releases/tag/v5.1.2).
+Additional packages and checksums are available under "Assets" on the [Release Page](https://github.com/RegenNetwork/regen-ledger/releases/tag/v5.1.2).

@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regentypes "github.com/regen-network/regen-ledger/types/v2"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regentypes "github.com/RegenNetwork/regen-ledger/types/v2"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 func TestQuery_Batch(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/regen-network/regen-ledger/v5/app/testsuite"
+	"github.com/RegenNetwork/regen-ledger/v5/app/testsuite"
 )
 
 type UpgradeTestSuite struct {

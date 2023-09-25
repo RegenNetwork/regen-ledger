@@ -2,8 +2,8 @@ package v4
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	basketv1 "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	ecocreditv1 "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
+	basketv1 "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	ecocreditv1 "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
 )
 
 // MigrateState performs in-place store migrations from ConsensusVersion 3 to 4.

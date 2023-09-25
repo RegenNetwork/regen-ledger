@@ -9,7 +9,7 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/regen-network/regen-ledger/v5/app"
+	"github.com/RegenNetwork/regen-ledger/v5/app"
 )
 
 func TestSimAppExportAndBlockedAddrs(t *testing.T) {

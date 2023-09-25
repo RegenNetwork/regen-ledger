@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
-	"github.com/regen-network/regen-ledger/types/v2/testutil"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
 )
 
 type addAllowedDenomSuite struct {

@@ -6,52 +6,52 @@
 </div>
 <br />
 <div align="center">
-    <a href="https://github.com/regen-network/regen-ledger/blob/main/LICENSE">
+    <a href="https://github.com/RegenNetwork/regen-ledger/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue" />
     </a>
-    <a href="https://github.com/regen-network/regen-ledger/releases/latest">
+    <a href="https://github.com/RegenNetwork/regen-ledger/releases/latest">
         <img alt="Version" src="https://img.shields.io/github/tag/regen-network/regen-ledger" />
     </a>
-    <a href="https://pkg.go.dev/github.com/regen-network/regen-ledger/v5">
-        <img alt="Go Doc" src="https://pkg.go.dev/badge/github.com/regen-network/regen-ledger/v5" />
+    <a href="https://pkg.go.dev/github.com/RegenNetwork/regen-ledger/v5">
+        <img alt="Go Doc" src="https://pkg.go.dev/badge/github.com/RegenNetwork/regen-ledger/v5" />
     </a>
 </div>
 <br />
 <div align="center">
-    <a href="https://github.com/regen-network/regen-ledger/commits/actions/workflows/build.yml">
-        <img alt="Build Status" src="https://github.com/regen-network/regen-ledger/workflows/Build/badge.svg" />
+    <a href="https://github.com/RegenNetwork/regen-ledger/commits/actions/workflows/build.yml">
+        <img alt="Build Status" src="https://github.com/RegenNetwork/regen-ledger/workflows/Build/badge.svg" />
     </a>
-    <a href="https://github.com/regen-network/regen-ledger/commits/actions/workflows/tests.yml">
-        <img alt="Test Status" src="https://github.com/regen-network/regen-ledger/workflows/Tests/badge.svg" />
+    <a href="https://github.com/RegenNetwork/regen-ledger/commits/actions/workflows/tests.yml">
+        <img alt="Test Status" src="https://github.com/RegenNetwork/regen-ledger/workflows/Tests/badge.svg" />
     </a>
-    <a href="https://github.com/regen-network/regen-ledger/commits/actions/workflows/sims.yml">
-        <img alt="Sims Status" src="https://github.com/regen-network/regen-ledger/workflows/Sims/badge.svg" />
+    <a href="https://github.com/RegenNetwork/regen-ledger/commits/actions/workflows/sims.yml">
+        <img alt="Sims Status" src="https://github.com/RegenNetwork/regen-ledger/workflows/Sims/badge.svg" />
     </a>
-    <a href="https://github.com/regen-network/regen-ledger/commits/actions/workflows/lint.yml">
-        <img alt="Lint Status" src="https://github.com/regen-network/regen-ledger/workflows/Lint/badge.svg" />
-    </a>
-</div>
-<br />
-<div align="center">
-    <a href="https://github.com/regen-network/regen-ledger/actions/workflows/proto-registry.yml">
-        <img alt="Proto Registry" src="https://github.com/regen-network/regen-ledger/workflows/Proto%20Registry/badge.svg" />
-    </a>
-    <a href="https://github.com/regen-network/regen-ledger/actions/workflows/build-nightly.yml">
-        <img alt="Test Nightly Status" src="https://github.com/regen-network/regen-ledger/workflows/Build%20Nightly/badge.svg" />
-    </a>
-    <a href="https://github.com/regen-network/regen-ledger/actions/workflows/sims-nightly.yml">
-        <img alt="Sims Nightly Status" src="https://github.com/regen-network/regen-ledger/workflows/Sims%20Nightly/badge.svg" />
+    <a href="https://github.com/RegenNetwork/regen-ledger/commits/actions/workflows/lint.yml">
+        <img alt="Lint Status" src="https://github.com/RegenNetwork/regen-ledger/workflows/Lint/badge.svg" />
     </a>
 </div>
 <br />
 <div align="center">
-    <a href="https://github.com/regen-network/regen-ledger/issues">
+    <a href="https://github.com/RegenNetwork/regen-ledger/actions/workflows/proto-registry.yml">
+        <img alt="Proto Registry" src="https://github.com/RegenNetwork/regen-ledger/workflows/Proto%20Registry/badge.svg" />
+    </a>
+    <a href="https://github.com/RegenNetwork/regen-ledger/actions/workflows/build-nightly.yml">
+        <img alt="Test Nightly Status" src="https://github.com/RegenNetwork/regen-ledger/workflows/Build%20Nightly/badge.svg" />
+    </a>
+    <a href="https://github.com/RegenNetwork/regen-ledger/actions/workflows/sims-nightly.yml">
+        <img alt="Sims Nightly Status" src="https://github.com/RegenNetwork/regen-ledger/workflows/Sims%20Nightly/badge.svg" />
+    </a>
+</div>
+<br />
+<div align="center">
+    <a href="https://github.com/RegenNetwork/regen-ledger/issues">
         <img alt="Issues" src="https://img.shields.io/github/issues/regen-network/regen-ledger?color=blue" />
     </a>
-    <a href="https://github.com/regen-network/regen-ledger/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
+    <a href="https://github.com/RegenNetwork/regen-ledger/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
         <img alt="Good First Issues" src="https://img.shields.io/github/issues/regen-network/regen-ledger/good%20first%20issue?color=blue" />
     </a>
-    <a href="https://github.com/regen-network/regen-ledger/discussions">
+    <a href="https://github.com/RegenNetwork/regen-ledger/discussions">
         <img alt="Discussions" src="https://img.shields.io/github/discussions/regen-network/regen-ledger?color=blue" />
     </a>
     <a href="https://discord.gg/regen-network">
@@ -60,8 +60,8 @@
 </div>
 <br />
 <div align="center">
-    <a href="https://goreportcard.com/report/github.com/regen-network/regen-ledger">
-        <img alt="Go Report" src="https://goreportcard.com/badge/github.com/regen-network/regen-ledger" />
+    <a href="https://goreportcard.com/report/github.com/RegenNetwork/regen-ledger">
+        <img alt="Go Report" src="https://goreportcard.com/badge/github.com/RegenNetwork/regen-ledger" />
     </a>
     <a href="https://codecov.io/gh/regen-network/regen-ledger">
         <img alt="Code Coverage" src="https://codecov.io/gh/regen-network/regen-ledger/branch/main/graph/badge.svg" />
@@ -175,11 +175,11 @@ View the available commands:
 
 ## Related Repositories
 
-- [regen-network/governance](https://github.com/regen-network/governance) - guidelines and long-form proposals for Regen Mainnet
-- [regen-network/mainnet](https://github.com/regen-network/mainnet) - additional information and historical record for Regen Mainnet
-- [regen-network/testnets](https://github.com/regen-network/testnets) - additional information and historical record for Regen Testnets
-- [regen-network/regen-js](https://github.com/regen-network/regen-js) - a JavaScript client library for interacting with Regen Ledger
-- [regen-network/regen-web](https://github.com/regen-network/regen-web) - user interfaces for Regen Network and Regen Registry
+- [regen-network/governance](https://github.com/RegenNetwork/governance) - guidelines and long-form proposals for Regen Mainnet
+- [regen-network/mainnet](https://github.com/RegenNetwork/mainnet) - additional information and historical record for Regen Mainnet
+- [regen-network/testnets](https://github.com/RegenNetwork/testnets) - additional information and historical record for Regen Testnets
+- [regen-network/regen-js](https://github.com/RegenNetwork/regen-js) - a JavaScript client library for interacting with Regen Ledger
+- [regen-network/regen-web](https://github.com/RegenNetwork/regen-web) - user interfaces for Regen Network and Regen Registry
 
 ## Sleeping in the Forest
 

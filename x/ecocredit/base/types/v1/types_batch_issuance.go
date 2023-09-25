@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base"
 )
 
 // Validate checks if a BatchIssuance is valid.

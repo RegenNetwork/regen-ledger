@@ -8,7 +8,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
 )
 
 const (

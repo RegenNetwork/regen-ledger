@@ -10,8 +10,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/types/v2/testutil/fixture"
-	"github.com/regen-network/regen-ledger/x/data/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil/fixture"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2"
 )
 
 type GenesisTestSuite struct {

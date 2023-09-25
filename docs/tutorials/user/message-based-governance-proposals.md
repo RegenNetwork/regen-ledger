@@ -2,7 +2,7 @@
 
 This tutorial uses the [command-line interface (CLI)](../../ledger/interfaces.md#command-line-interface) to demonstrate how to submit message-based governance proposals. This tutorial uses messages from the `ecocredit` and `authz` modules as examples but any message for any module wired up to Regen Ledger works the same. For example, you could create and manage a group using governance proposals and the `group` module.
 
-Community members are encouraged to submit thoughtful governance proposals on all networks governed and maintained by the Regen Network community. If you are planning to submit a proposal to Regen Mainnet, make sure you follow [Governance Guidelines](https://github.com/regen-network/governance#guidelines) for a successful outcome.
+Community members are encouraged to submit thoughtful governance proposals on all networks governed and maintained by the Regen Network community. If you are planning to submit a proposal to Regen Mainnet, make sure you follow [Governance Guidelines](https://github.com/RegenNetwork/governance#guidelines) for a successful outcome.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Community members are encouraged to submit thoughtful governance proposals on al
 
 ## Recommended
 
-- [Regen Ledger v5 Release Notes](https://github.com/regen-network/regen-ledger/releases/tag/v5.0.0)
+- [Regen Ledger v5 Release Notes](https://github.com/RegenNetwork/regen-ledger/releases/tag/v5.0.0)
 
 ## Introduction
 
@@ -271,4 +271,4 @@ Congratulations! You have now successfully submitted a message-based governance 
 
 If you submit a proposal on Redwood Testnet that you would like to see succeed, be sure to reach out on Discord, otherwise the proposal may go unnoticed.
 
-As mentioned above, proposals submitted to Regen Mainnet should follow [Governance Guidelines](https://github.com/regen-network/governance#guidelines) for best results. We also recommend submitting a proposal on Redwood Testnet before submitting on Regen Mainnet if you are new to message-based governance proposals or proposals in general.
+As mentioned above, proposals submitted to Regen Mainnet should follow [Governance Guidelines](https://github.com/RegenNetwork/governance#guidelines) for best results. We also recommend submitting a proposal on Redwood Testnet before submitting on Regen Mainnet if you are new to message-based governance proposals or proposals in general.

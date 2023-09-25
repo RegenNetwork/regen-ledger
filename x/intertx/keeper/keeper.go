@@ -8,7 +8,7 @@ import (
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/regen-network/regen-ledger/x/intertx"
+	"github.com/RegenNetwork/regen-ledger/x/intertx"
 )
 
 type Keeper struct {

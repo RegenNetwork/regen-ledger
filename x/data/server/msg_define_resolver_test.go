@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/data/v1"
-	"github.com/regen-network/regen-ledger/types/v2/testutil"
-	"github.com/regen-network/regen-ledger/x/data/v2"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/data/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2"
 )
 
 type defineResolverSuite struct {

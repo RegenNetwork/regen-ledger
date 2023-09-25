@@ -16,8 +16,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 
-	"github.com/regen-network/regen-ledger/x/intertx"
-	intertxv1 "github.com/regen-network/regen-ledger/x/intertx/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/intertx"
+	intertxv1 "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1"
 )
 
 const (

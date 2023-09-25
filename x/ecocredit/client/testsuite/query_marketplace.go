@@ -6,9 +6,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 
-	"github.com/regen-network/regen-ledger/types/v2/testutil/cli"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/marketplace/client"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil/cli"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/marketplace/client"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/marketplace/types/v1"
 )
 
 func (s *IntegrationTestSuite) TestQuerySellOrderCmd() {

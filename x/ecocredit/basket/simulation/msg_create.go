@@ -15,11 +15,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	basetypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/simulation/utils"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	basetypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/simulation/utils"
 )
 
 const WeightCreate = 100

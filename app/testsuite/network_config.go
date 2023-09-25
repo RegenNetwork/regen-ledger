@@ -16,8 +16,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/regen-network/regen-ledger/types/v2/testutil/network"
-	"github.com/regen-network/regen-ledger/v5/app"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil/network"
+	"github.com/RegenNetwork/regen-ledger/v5/app"
 )
 
 func NewRegenAppConstructor(encCfg app.EncodingConfig) network.AppConstructor {

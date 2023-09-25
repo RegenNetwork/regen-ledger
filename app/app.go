@@ -112,20 +112,20 @@ import (
 	ibchost "github.com/cosmos/ibc-go/v5/modules/core/24-host"
 	ibckeeper "github.com/cosmos/ibc-go/v5/modules/core/keeper"
 
-	regenupgrades "github.com/regen-network/regen-ledger/v5/app/upgrades"
-	"github.com/regen-network/regen-ledger/v5/app/upgrades/v5_0"
-	"github.com/regen-network/regen-ledger/v5/app/upgrades/v5_1"
-	"github.com/regen-network/regen-ledger/x/data/v2"
-	datamodule "github.com/regen-network/regen-ledger/x/data/v2/module"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	baskettypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
-	ecocreditmodule "github.com/regen-network/regen-ledger/x/ecocredit/v3/module"
-	"github.com/regen-network/regen-ledger/x/intertx"
-	intertxkeeper "github.com/regen-network/regen-ledger/x/intertx/keeper"
-	intertxmodule "github.com/regen-network/regen-ledger/x/intertx/module"
+	regenupgrades "github.com/RegenNetwork/regen-ledger/v5/app/upgrades"
+	"github.com/RegenNetwork/regen-ledger/v5/app/upgrades/v5_0"
+	"github.com/RegenNetwork/regen-ledger/v5/app/upgrades/v5_1"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2"
+	datamodule "github.com/RegenNetwork/regen-ledger/x/data/v2/module"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	baskettypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
+	ecocreditmodule "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/module"
+	"github.com/RegenNetwork/regen-ledger/x/intertx"
+	intertxkeeper "github.com/RegenNetwork/regen-ledger/x/intertx/keeper"
+	intertxmodule "github.com/RegenNetwork/regen-ledger/x/intertx/module"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/regen-network/regen-ledger/v5/app/client/docs/statik"
+	_ "github.com/RegenNetwork/regen-ledger/v5/app/client/docs/statik"
 )
 
 const (

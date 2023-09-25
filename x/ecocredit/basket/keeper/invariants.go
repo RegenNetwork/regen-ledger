@@ -8,9 +8,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
 )
 
 func (k Keeper) RegisterInvariants(ir sdk.InvariantRegistry) {

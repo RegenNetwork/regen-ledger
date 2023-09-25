@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	"github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/regen-network/regen-ledger/v5/app"
-	"github.com/regen-network/regen-ledger/v5/app/client/cli"
+	"github.com/RegenNetwork/regen-ledger/v5/app"
+	"github.com/RegenNetwork/regen-ledger/v5/app/client/cli"
 )
 
 func main() {

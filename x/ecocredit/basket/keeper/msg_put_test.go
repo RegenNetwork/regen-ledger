@@ -8,22 +8,22 @@ import (
 
 	sdkMath "cosmossdk.io/math"
 	"github.com/gogo/protobuf/jsonpb"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	baseapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regentypes "github.com/regen-network/regen-ledger/types/v2"
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/types/v2/testutil"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base"
-	basetypes "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/basket/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	baseapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regentypes "github.com/RegenNetwork/regen-ledger/types/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base"
+	basetypes "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket/types/v1"
 )
 
 type putSuite struct {

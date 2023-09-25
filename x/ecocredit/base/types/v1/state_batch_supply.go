@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
 )
 
 // Validate performs basic validation of the BatchSupply state type

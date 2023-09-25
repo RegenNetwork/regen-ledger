@@ -1,6 +1,6 @@
 # Modules
 
-Regen Ledger includes native modules built and maintained within the [regen-ledger](https://github.com/regen-network/regen-ledger) repository and external modules built and maintained within the [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) and [ibc-go](https://github.com/cosmos/ibc-go) repositories.
+Regen Ledger includes native modules built and maintained within the [regen-ledger](https://github.com/RegenNetwork/regen-ledger) repository and external modules built and maintained within the [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) and [ibc-go](https://github.com/cosmos/ibc-go) repositories.
 
 ## Regen Ledger
 

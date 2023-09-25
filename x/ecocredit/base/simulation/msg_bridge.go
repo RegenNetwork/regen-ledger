@@ -12,10 +12,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/regen-network/regen-ledger/types/v2/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/simulation/utils"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/simulation/utils"
 )
 
 const OpWeightMsgBridge = "op_weight_msg_bridge" //nolint:gosec

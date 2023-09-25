@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/ibc-go/v5/modules/apps/27-interchain-accounts/types"
 
-	v1 "github.com/regen-network/regen-ledger/x/intertx/types/v1"
+	v1 "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1"
 )
 
 func TestQueryInterchainAccount(t *testing.T) {

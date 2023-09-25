@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 func TestQueryClassesByAdmin(t *testing.T) {

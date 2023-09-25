@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/regen-network/gocuke"
+	"github.com/RegenNetwork/gocuke"
 	"github.com/stretchr/testify/require"
 	"gotest.tools/v3/assert"
 
@@ -22,11 +22,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	basketapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/basket/v1"
-	marketplaceapi "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/mocks"
+	basketapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/basket/v1"
+	marketplaceapi "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/marketplace/v1"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/mocks"
 )
 
 const (

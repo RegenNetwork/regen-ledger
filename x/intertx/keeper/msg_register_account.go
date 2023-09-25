@@ -7,7 +7,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/regen-network/regen-ledger/x/intertx/types/v1"
+	types "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1"
 )
 
 // RegisterAccount implements the Msg/RegisterAccount interface

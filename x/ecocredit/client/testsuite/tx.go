@@ -8,10 +8,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	regentypes "github.com/regen-network/regen-ledger/types/v2"
-	"github.com/regen-network/regen-ledger/types/v2/testutil/cli"
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/base/client"
-	types "github.com/regen-network/regen-ledger/x/ecocredit/v3/base/types/v1"
+	regentypes "github.com/RegenNetwork/regen-ledger/types/v2"
+	"github.com/RegenNetwork/regen-ledger/types/v2/testutil/cli"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/client"
+	types "github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/base/types/v1"
 )
 
 func (s *IntegrationTestSuite) TestTxCreateClassCmd() {

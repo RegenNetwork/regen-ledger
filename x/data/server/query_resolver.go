@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	regenerrors "github.com/regen-network/regen-ledger/types/v2/errors"
-	"github.com/regen-network/regen-ledger/x/data/v2"
+	regenerrors "github.com/RegenNetwork/regen-ledger/types/v2/errors"
+	"github.com/RegenNetwork/regen-ledger/x/data/v2"
 )
 
 // Resolver queries a resolver by its unique identifier.

@@ -11,7 +11,7 @@ This document provides an overview of the upgrade process for software upgrades 
 
 ## Software Upgrade
 
-A software upgrade is required when breaking changes are introduced in a new version of [Regen Ledger](https://github.com/regen-network/regen-ledger). In order to upgrade a live network to a new version of software that introduces breaking changes, there must be an agreed upon block height at which blocks are no longer produced with the old version of the software and only with the new.
+A software upgrade is required when breaking changes are introduced in a new version of [Regen Ledger](https://github.com/RegenNetwork/regen-ledger). In order to upgrade a live network to a new version of software that introduces breaking changes, there must be an agreed upon block height at which blocks are no longer produced with the old version of the software and only with the new.
 
 The expected version and the upgrade height are defined within a [software upgrade](https://docs.cosmos.network/main/modules/gov/01_concepts.html#software-upgrade) proposal. If the proposal passes, the chain will halt at the proposed upgrade height. At this point, node operators will need to stop running the current binary and start running the upgrade binary.
 

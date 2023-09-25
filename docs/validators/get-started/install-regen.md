@@ -11,7 +11,7 @@ The following instructions are for building and installing the `regen` binary. I
 Clone the `regen-ledger` repository:
 
 ```bash
-git clone https://github.com/regen-network/regen-ledger
+git clone https://github.com/RegenNetwork/regen-ledger
 ```
 
 Change to the `regen-ledger` directory:

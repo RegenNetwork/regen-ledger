@@ -5,7 +5,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit/v3/basket"
+	"github.com/RegenNetwork/regen-ledger/x/ecocredit/v3/basket"
 )
 
 var _ legacytx.LegacyMsg = &MsgUpdateCurator{}

@@ -10,7 +10,7 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v5/modules/core/04-channel/types"
 	host "github.com/cosmos/ibc-go/v5/modules/core/24-host"
 
-	types "github.com/regen-network/regen-ledger/x/intertx/types/v1"
+	types "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1"
 )
 
 // SubmitTx implements the Msg/SubmitTx interface

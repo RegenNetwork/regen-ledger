@@ -14,10 +14,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/tendermint/tendermint/abci/types"
 
-	"github.com/regen-network/regen-ledger/x/intertx"
-	intertxClient "github.com/regen-network/regen-ledger/x/intertx/client"
-	"github.com/regen-network/regen-ledger/x/intertx/keeper"
-	v1 "github.com/regen-network/regen-ledger/x/intertx/types/v1"
+	"github.com/RegenNetwork/regen-ledger/x/intertx"
+	intertxClient "github.com/RegenNetwork/regen-ledger/x/intertx/client"
+	"github.com/RegenNetwork/regen-ledger/x/intertx/keeper"
+	v1 "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1"
 )
 
 var (

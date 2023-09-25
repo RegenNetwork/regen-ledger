@@ -222,7 +222,7 @@ format_local = \
 	github.com/tendermint/tendermint \
 	github.com/cosmos/cosmos-sdk \
 	github.com/cosmos/ibc-go \
-	github.com/regen-network/regen-ledger
+	github.com/RegenNetwork/regen-ledger
 
 format:
 	@echo "Formatting all go modules..."
@@ -281,7 +281,7 @@ docs-build:
 	@cd docs && yarn && yarn build
 
 godocs:
-	@echo "Wait a few seconds and then visit http://localhost:6060/pkg/github.com/regen-network/regen-ledger/v5/"
+	@echo "Wait a few seconds and then visit http://localhost:6060/pkg/github.com/RegenNetwork/regen-ledger/v5/"
 	godoc -http=:6060
 
 .PHONY: docs-dev docs-build godocs

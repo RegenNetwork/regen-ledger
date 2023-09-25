@@ -3,7 +3,7 @@
 - Created: 2021-12-03
 - Status: __ACCEPTED__
 - Superseded By: N/A
-- RFC PR: [#681](https://github.com/regen-network/regen-ledger/pull/681)
+- RFC PR: [#681](https://github.com/RegenNetwork/regen-ledger/pull/681)
 - Authors: Darren Kong (@dtkong), Cory Levinson (@clevinson)
 
 ### Table of Contents
@@ -81,7 +81,7 @@ Ecocredit baskets are containers/bundles for ecocredits meeting a specific set o
 - _disable_auto_retire_ - boolean that determines if credits are auto-retired when removed from the basket
 - _enable_picking_ - boolean that enables or disables PickFromBasket functionality, where a basket token holder can select a specific desired ecocredit batch when redeeming ecocredits from the basket
 
-In the long term, we anticipate that there may be baskets which utilize [a complex set of filter criteria](https://github.com/regen-network/regen-ledger/blob/26cb432c298245804dd56360437f7f96977cd39b/proto/regen/ecocredit/v1alpha2/types.proto#L263-L334) consisting of many different ecocredit fields joined together with AND/OR operators.
+In the long term, we anticipate that there may be baskets which utilize [a complex set of filter criteria](https://github.com/RegenNetwork/regen-ledger/blob/26cb432c298245804dd56360437f7f96977cd39b/proto/regen/ecocredit/v1alpha2/types.proto#L263-L334) consisting of many different ecocredit fields joined together with AND/OR operators.
 
 However, in the initial implementation of the basket criteria, we reduce the potential filter criteria to the following fields, which we see as the fields most needed for the initial baskets that we hope to see live:
 - Credit Type

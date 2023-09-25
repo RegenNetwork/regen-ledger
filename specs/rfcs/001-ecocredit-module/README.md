@@ -3,7 +3,7 @@
 - Created: 2020-02-27
 - Status: __ACCEPTED__
 - Superseded By: N/A
-- RFC PR: [#107](https://github.com/regen-network/regen-ledger/pull/107)
+- RFC PR: [#107](https://github.com/RegenNetwork/regen-ledger/pull/107)
 - Authors: Cory Levinson (@clevinson), Aaron Craelius (@aaronc)
 
 ### Table of Contents
@@ -41,11 +41,11 @@ Although the needs illustrated above are meant to primarily address our own inte
 
 #### Previous Work
 
-Prior to this RFC, initial specifications have been worked on in 2019 in the form of [an initial Go specification on github](https://github.com/regen-network/regen-ledger/pull/67/files#diff-68348df3fa3097a94a14436af03aab22) [2].
+Prior to this RFC, initial specifications have been worked on in 2019 in the form of [an initial Go specification on github](https://github.com/RegenNetwork/regen-ledger/pull/67/files#diff-68348df3fa3097a94a14436af03aab22) [2].
 
 #### Protobuf Definitions
 
-The corresponding protocol buffer definitions for the approach outlined in this RFC were formalized in [regen-ledger#102](https://github.com/regen-network/regen-ledger/pull/102/files#diff-6fd37b2fd19e0fae88459fdc5025921f) [3].
+The corresponding protocol buffer definitions for the approach outlined in this RFC were formalized in [regen-ledger#102](https://github.com/RegenNetwork/regen-ledger/pull/102/files#diff-6fd37b2fd19e0fae88459fdc5025921f) [3].
 
 ### Definitions
 
@@ -164,5 +164,5 @@ Another design decision made in this proposal was to only implement two possible
 ## References
 
 1. [RFC: Ecosystem Service Credit Module](https://docs.google.com/document/d/1-CRfpZgPxiaZB4nhMwKKkeWbLDI5dYc0hmGwnGkCHP4)
-2. [initial Go specification on GitHub](https://github.com/regen-network/regen-ledger/pull/67/files#diff-68348df3fa3097a94a14436af03aab22)
-3. [initial Protobuf specification on GitHub](https://github.com/regen-network/regen-ledger/pull/102/files#diff-6fd37b2fd19e0fae88459fdc5025921f)
+2. [initial Go specification on GitHub](https://github.com/RegenNetwork/regen-ledger/pull/67/files#diff-68348df3fa3097a94a14436af03aab22)
+3. [initial Protobuf specification on GitHub](https://github.com/RegenNetwork/regen-ledger/pull/102/files#diff-6fd37b2fd19e0fae88459fdc5025921f)

@@ -14,7 +14,7 @@ import (
 	icatypes "github.com/cosmos/ibc-go/v5/modules/apps/27-interchain-accounts/types"
 	host "github.com/cosmos/ibc-go/v5/modules/core/24-host"
 
-	v1 "github.com/regen-network/regen-ledger/x/intertx/types/v1"
+	v1 "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1"
 )
 
 func TestSubmitTx(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	api "github.com/regen-network/regen-ledger/api/v2/regen/ecocredit/v1"
-	"github.com/regen-network/regen-ledger/types/v2/math"
+	api "github.com/RegenNetwork/regen-ledger/api/v2/regen/ecocredit/v1"
+	"github.com/RegenNetwork/regen-ledger/types/v2/math"
 )
 
 // BatchSupplyInvariant checks

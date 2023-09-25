@@ -1,4 +1,4 @@
-module github.com/regen-network/regen-ledger/v5
+module github.com/RegenNetwork/regen-ledger/v5
 
 go 1.19
 
@@ -8,11 +8,11 @@ require (
 	github.com/cosmos/ibc-go/v5 v5.3.1
 	github.com/gorilla/mux v1.8.0
 	github.com/rakyll/statik v0.1.7
-	github.com/regen-network/regen-ledger/types/v2 v2.0.0
-	github.com/regen-network/regen-ledger/x/data/v2 v2.0.0
-	github.com/regen-network/regen-ledger/x/ecocredit/v3 v3.0.0
-	github.com/regen-network/regen-ledger/x/intertx v1.0.0
-	github.com/rs/zerolog v1.30.0
+	github.com/RegenNetwork/regen-ledger/types/v2 v2.0.0
+	github.com/RegenNetwork/regen-ledger/x/data/v2 v2.0.0
+	github.com/RegenNetwork/regen-ledger/x/ecocredit/v3 v3.0.0
+	github.com/RegenNetwork/regen-ledger/x/intertx v1.0.0
+	github.com/rs/zerolog v1.31.0
 	github.com/spf13/cast v1.5.1
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
@@ -113,7 +113,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.18 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mimoo/StrobeGo v0.0.0-20210601165009-122bf33a46e0 // indirect
 	github.com/minio/highwayhash v1.0.2 // indirect
@@ -130,8 +130,8 @@ require (
 	github.com/prometheus/common v0.42.0 // indirect
 	github.com/prometheus/procfs v0.9.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
-	github.com/regen-network/cosmos-proto v0.3.1 // indirect
-	github.com/regen-network/regen-ledger/api/v2 v2.0.0 // indirect
+	github.com/RegenNetwork/cosmos-proto v0.3.1 // indirect
+	github.com/RegenNetwork/regen-ledger/api/v2 v2.0.0 // indirect
 	github.com/rs/cors v1.8.2 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
@@ -172,19 +172,19 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
+replace github.com/gogo/protobuf => github.com/RegenNetwork/protobuf v1.3.3-alpha.regen.1
 
-replace github.com/cosmos/cosmos-sdk => github.com/regen-network/cosmos-sdk v0.46.13-regen-1
+replace github.com/cosmos/cosmos-sdk => github.com/RegenNetwork/cosmos-sdk v0.46.13-regen-1
 
-replace github.com/regen-network/regen-ledger/api/v2 => ./api
+replace github.com/RegenNetwork/regen-ledger/api/v2 => ./api
 
-replace github.com/regen-network/regen-ledger/types/v2 => ./types
+replace github.com/RegenNetwork/regen-ledger/types/v2 => ./types
 
-replace github.com/regen-network/regen-ledger/x/data/v2 => ./x/data
+replace github.com/RegenNetwork/regen-ledger/x/data/v2 => ./x/data
 
-replace github.com/regen-network/regen-ledger/x/ecocredit/v3 => ./x/ecocredit
+replace github.com/RegenNetwork/regen-ledger/x/ecocredit/v3 => ./x/ecocredit
 
-replace github.com/regen-network/regen-ledger/x/intertx => ./x/intertx
+replace github.com/RegenNetwork/regen-ledger/x/intertx => ./x/intertx
 
 replace github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 
@@ -194,11 +194,11 @@ replace github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.2
 // https://github.com/cosmos/cosmos-sdk/releases/tag/v0.46.13
 replace github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 
-// https://github.com/regen-network/regen-ledger/security/dependabot/86
+// https://github.com/RegenNetwork/regen-ledger/security/dependabot/86
 replace github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.7
 
-// https://github.com/regen-network/regen-ledger/security/dependabot/94
+// https://github.com/RegenNetwork/regen-ledger/security/dependabot/94
 replace github.com/hashicorp/go-getter => github.com/hashicorp/go-getter v1.7.0
 
-// https://github.com/regen-network/regen-ledger/security/dependabot/105
+// https://github.com/RegenNetwork/regen-ledger/security/dependabot/105
 replace golang.org/x/net => golang.org/x/net v0.7.0

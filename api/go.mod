@@ -1,4 +1,4 @@
-module github.com/regen-network/regen-ledger/api/v2
+module github.com/RegenNetwork/regen-ledger/api/v2
 
 go 1.19
 
@@ -39,5 +39,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230815205213-6bfd019c3878 // indirect
 )
 
-// https://github.com/regen-network/regen-ledger/security/dependabot/105
+// https://github.com/RegenNetwork/regen-ledger/security/dependabot/105
 replace golang.org/x/net => golang.org/x/net v0.7.0
